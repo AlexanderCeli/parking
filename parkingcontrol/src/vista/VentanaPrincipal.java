@@ -158,14 +158,16 @@ public class VentanaPrincipal extends JFrame implements Runnable {
         @Override
         public void actionPerformed(ActionEvent e) {
 
+           
             if (e.getSource() == Clientes) {
-                RegistroAdminUsuario q = new RegistroAdminUsuario();
 
+                RegistroCliente p = new RegistroCliente();
             }
             if (e.getSource() == Usuario) {
-                RegistroCliente p = new RegistroCliente();
 
+                RegistroAdminUsuario q = new RegistroAdminUsuario();
             }
+                    
 
         }
 
